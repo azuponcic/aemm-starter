@@ -11,4 +11,6 @@
 
     </filter>
 
+    <filter root="/etc/contentsync/templates/aemm-starter"/>
+
 </workspaceFilter>

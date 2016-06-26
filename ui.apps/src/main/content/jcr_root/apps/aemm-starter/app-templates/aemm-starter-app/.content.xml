@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="A starter app for AEM Mobile"
+    jcr:primaryType="cq:Template"
+    jcr:title="AEM Mobile Starter"
+    allowedPaths="[/content/phonegap(/.*)?,/content/mobileapps(/.*)?]"
+    pge-type="app-publish"
+    wizard="/libs/mobileapps/dps/admin/content/createpublishappsteps.html">
+    <jcr:content
+        cq:allowedTemplates="[/apps/aemm-starter/templates/.*]"
+        cq:designPath="/etc/designs/aemm-starter"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemm-starter/components/pages/app"
+        dps-exportTemplate="/etc/contentsync/templates/aemm-starter"
+        dps-resourceType="dps:Project"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
+        pge-type="[app-group]"/>
+</jcr:root>
