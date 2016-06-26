@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aemm-starter"/>
+
+
+    <filter root="/etc/clientlibs/aemm-starter"/>
+
+
+    <filter root="/etc/designs/aemm-starter">
+        <include pattern="/etc/designs/aemm-starter/jcr:content"/>
+
+    </filter>
+
+</workspaceFilter>
