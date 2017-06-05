@@ -12,6 +12,6 @@ From the bundle directory, run ``mvn -PautoInstallBundle clean install`` to buil
 
 ## Notes
 
-The com.adobe.cq.mobile.dps.impl.service.AdobeDPSClient config has been added to the ingore list to prevent checkin of secret keys.
+The com.adobe.cq.mobile.dps.impl.service.AdobeDPSClient config has been added to the ignore list to prevent checkin of secret keys.
 
 
